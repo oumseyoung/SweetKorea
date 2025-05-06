@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form – Sweet Korea: Best Korean Desserts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Sweet Korea: Best Korean Desserts</h1>
+        <nav id="mainmenu" class="tab-nav">
+            <a href="index.html">Home</a>
+            <a href="guide.html">Guide</a>
+            <a href="form.html" class="active">Form</a>
+          </nav>
+    </header>
+
+    <main>
+        <div id="introduction">
+            <h2>Tell Us About Your Favorite Dessert</h2>
+            <p>Korean desserts come in many delicious varieties, and we’d love to hear about your favorite! Fill out the
+                form below to share your experience.</p>
+        </div>
+        <hr>
+        <form action="mailto:seyoungoum@icloud.com" method="post" enctype="text/plain">
+
+            <!-- Fieldset 1 -->
+            <fieldset>
+                <legend>Your Information</legend>
+                <label for="name"><strong>Name</strong></label><br>
+                <input type="text" name="name" id="name" maxlength="50" size="50"><br><br>
+
+                <label for="email"><strong>E-mail Address</strong></label><br>
+                <input type="email" name="email" id="email" maxlength="100" size="50">
+            </fieldset>
+
+            <!-- Fieldset 2 -->
+            <fieldset>
+                <legend>About Your Favorite Dessert</legend>
+                <label for="dessert"><strong>Favorite Dessert</strong></label><br>
+                <input type="text" name="dessert" id="dessert" placeholder="e.g., Yakgwa, Jeonggwa, Ddungcaron"
+                    maxlength="100" size="50"><br><br>
+
+                <label for="reason"><strong>Why do you love this dessert?</strong></label><br>
+                <textarea name="reason" id="reason" cols="50" rows="6" maxlength="500"
+                    placeholder="Tell us what makes it special for you..."></textarea>
+            </fieldset>
+
+            <!-- Fieldset 3 -->
+            <fieldset>
+                <legend>Dessert Preferences</legend>
+
+                <p><strong>Do you prefer traditional or modern Korean desserts?</strong></p>
+                <input type="radio" id="traditional" name="style" value="Traditional" required>
+                <label for="traditional">Traditional (e.g., Yakgwa, Jeonggwa, Hotteok)</label><br>
+
+                <input type="radio" id="modern" name="style" value="Modern">
+                <label for="modern">Modern (e.g., Ddungcaron, Korean-style cakes)</label>
+
+                <p><strong>Which flavors do you enjoy the most?</strong> (Check all that apply)</p>
+                <input type="checkbox" id="sweet" name="flavor" value="Sweet">
+                <label for="sweet">Sweet</label><br>
+
+                <input type="checkbox" id="nutty" name="flavor" value="Nutty">
+                <label for="nutty">Nutty</label><br>
+
+                <input type="checkbox" id="fruity" name="flavor" value="Fruity">
+                <label for="fruity">Fruity</label><br>
+
+                <input type="checkbox" id="creamy" name="flavor" value="Creamy">
+                <label for="creamy">Creamy</label><br>
+
+                <input type="checkbox" id="salty" name="flavor" value="Salty">
+                <label for="salty">Salty</label>
+            </fieldset>
+
+            <!-- Fieldset 4 -->
+            <fieldset>
+                <legend>Submit</legend>
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset Form">
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <address>
+            <p>Author: Seyoung Oum (<a href="mailto:seyoungoum@icloud.com">seyoungoum@icloud.com</a>)<br>
+                Budapest, Szentkirályi u. 10, 1088</p>
+        </address>
+    </footer>
+</body>
+
+</html>
