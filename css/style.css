@@ -209,11 +209,6 @@ img {
   margin-bottom: 0.5rem;
 }
 
-figcaption {
-  font-size: 0.9rem;
-  color: #555;
-}
-
 .dessert-gallery {
   display: flex;
   justify-content: center;
