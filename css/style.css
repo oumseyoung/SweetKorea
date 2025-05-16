@@ -392,3 +392,32 @@ details p {
 #theme-toggle:hover img {
   transform: rotate(20deg);
 }
+
+@media (max-width: 767px) {
+  main {
+    padding: 0 1rem;
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .flex-row .image,
+  .flex-row .text {
+    width: 100%;
+  }
+
+  table {
+    font-size: 0.9rem;
+    word-break: break-word;
+  }
+
+  th, td {
+    padding: 0.5rem;
+  }
+
+  .dessert-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+}
