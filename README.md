@@ -1,78 +1,109 @@
-# Sweet Korea
+# 🍯 Sweet Korea
 
-A frontend web project introducing traditional Korean desserts, with an emphasis on universal design, web accessibility, and semantic HTML structure.
+A static website introducing traditional Korean desserts, designed with accessibility, responsiveness, and semantic HTML in mind.
 
 ## 📌 Overview
 
-**Sweet Korea** is a static website developed as a personal project during the *Web Development* course at **Eötvös Loránd University (ELTE)** in the Spring 2025 semester.  
-It introduces three representative Korean desserts—**Yakgwa**, **Jeonggwa**, and **Ddungcaron**—in an accessible and visually engaging way. The project aims to balance rich cultural content with thoughtful frontend implementation, responsive layout, and accessible interaction.
+**Sweet Korea** is a personal frontend web project developed during the *Web Development* course at **Eötvös Loránd University (ELTE)** in Spring 2025.  
+It highlights three iconic Korean desserts—**Yakgwa**, **Jeonggwa**, and **Ddungcaron**—through a visually engaging, accessible, and culturally informative website.
 
-## 🎯 Features
+The site is optimized for both screen and print viewing and emphasizes **universal design principles** and **mobile responsiveness**.
 
-- **Semantic HTML** with clear heading hierarchy
-- **Universal design** principles applied (color contrast, font size, spacing)
-- **Accessibility features** such as:
-  - Skip navigation link
-  - ARIA-friendly image alt texts
-  - Keyboard-navigable forms and layout
-- **Responsive layout** using Flexbox and media queries
-- **Clean and readable UI** with pastel tones and consistent styling
-- **Interactive form** to collect dessert preferences
+---
+
+## 🎯 Key Features
+
+- ✅ **Semantic HTML5** with proper heading structure and element usage  
+- ✅ **Accessible interaction** (keyboard navigation, skip links, alt text)
+- ✅ **Responsive layout** using Flexbox and media queries
+- ✅ **Thematic toggle** (light/dark mode with localStorage persistence)
+- ✅ **Thumbnail galleries with light image linking**
+- ✅ **Video embedding** with optional subtitles
+- ✅ **Print-friendly stylesheet (`print.css`)** that hides navigation, videos, and non-essential layout elements
+- ✅ **Custom form** with input validation and semantic structure
+
+---
 
 ## 🗂 Pages
 
 | Page         | Description                                                                 |
 |--------------|-----------------------------------------------------------------------------|
-| `index.html` | Home page – introduces the project and the three featured desserts          |
-| `guide.html` | In-depth cultural guide with history, how-to videos, and recommended cafés  |
-| `form.html`  | A feedback form where users can share their favorite desserts               |
+| `index.html` | Home – Introduces the project and the three main desserts                   |
+| `guide.html` | Cultural guide – Dessert histories, preparation videos, and café tips       |
+| `form.html`  | Interactive form – Users submit their favorite Korean dessert               |
 
-## 🧠 Technologies Used
+---
 
-- HTML5 (semantic structure)
-- CSS3 (custom styling, Flexbox layout, responsive design)
-- [Google Fonts – Pacifico](https://fonts.google.com/specimen/Pacifico)
-- `<video>` embedding (with `poster` image for preview)
-- ARIA-compatible markup and alt text for images
+## 🖥 Technologies Used
 
-## ♿ Accessibility Details
+- **HTML5** – semantic and accessible structure
+- **CSS3** – responsive design with Flexbox and custom styling
+- **Media Queries** – for screen size adaptation
+- **JavaScript** – for theme toggling and localStorage
+- **Google Fonts** – [Pacifico](https://fonts.google.com/specimen/Pacifico) for branding
+- **Video elements** – `<video>` with preview image
+- **ARIA**-friendly markup
 
-- **`<nav id="skip">`** for skip-to-content functionality
-- Descriptive **`alt` text** for all images
-- Form labels and field grouping via **`<fieldset>`** and **`<legend>`**
-- High contrast color scheme for text and backgrounds
-- Mobile-first responsive design using media queries
-- Touch-friendly input and navigation elements
+---
 
-## 📸 Screenshots
+## ♿ Accessibility Highlights
 
-> _To be added later_
+- `Skip to content` link for keyboard users
+- Proper `<alt>` attributes for all images
+- Color contrast and font sizing adjusted for readability
+- Accessible form with `<fieldset>`, `<legend>`, and properly associated `<label>`s
+- Touch-friendly layout and controls
+
+---
+
+## 🖨️ Print Support
+
+- Separate `print.css` stylesheet included
+- Removes navigation, header, footer, and video for paper efficiency
+- Optimizes font, spacing, and image size for printing
+- Ensures tables and captions are preserved
+- Ensures no blank areas from hidden media content
+
+---
+
+## 📱 Responsive Design
+
+- Adapts layout to various screen sizes (desktop, tablet, mobile)
+- Two-column sections become single-column on small screens
+- Navigation and spacing adjusted for better mobile readability
+- Images and tables shrink and wrap to fit
+
+---
 
 ## 📂 Folder Structure
-
 ```
 SweetKorea_SeyoungOum/
 ├── index.html
 ├── guide.html
 ├── form.html
 ├── css/
-│   └── style.css
+│   ├── style.css
+│   └── print.css
 ├── media/
 │   ├── Ddungcaron.jpg
 │   ├── FusionYakgwa.jpg
-│   ├── header-bg.jpg
 │   ├── Jeonggwa.jpg
-│   ├── MakingJeonggwa.jpg
-│   ├── MakingYakgwa.jpg
 │   ├── WalnutJeonggwa.jpg
-│   └── Yakgwa.jpg
+│   ├── Yakgwa.jpg
+│   ├── MakingYakgwa.mp4
+│   ├── MakingYakgwa.jpg
+│   ├── MakingJeonggwa.mp4
+│   ├── MakingJeonggwa.jpg
+│   ├── Sun.png
+│   └── header-bg.jpg
 └── README.md
 ```
+---
 
-## 📩 Contact
+## 👤 Author
 
-**Author**: Seyoung Oum  
-📧 Email: [seyoungoum04@gmail.com](mailto:seyoungoum04@gmail.com)  
-📍 Current Location: Budapest, Hungary (ELTE, Spring 2025 Exchange Program)
+**Seyoung Oum**  
+📧 [seyoungoum04@gmail.com](mailto:seyoungoum04@gmail.com)  
+📍 Budapest, Hungary (Exchange @ ELTE, Spring 2025)
 
 ---
